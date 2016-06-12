@@ -35,7 +35,7 @@ end
 ## Function to show current status
 function show_status -d "Function to show the current status"
 	if [ $RETVAL -ne 0 ]
-		bold_prompt_segment normal red "⚡ "
+		bold_prompt_segment normal red "λ "
 		set pad ""
 	else
 		bold_prompt_segment normal cyan "λ "
